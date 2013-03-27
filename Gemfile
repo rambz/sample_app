@@ -10,6 +10,16 @@ gem 'bcrypt-ruby', '3.0.1'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+  #gem "debugger", "~> 1.5.0"
+  #gem "ruby-debug-base", "~> 0.10.4"
+  #gem "rbx-require-relative", "~> 0.0.9"
+  #gem "ruby-debug19", "~> 0.11.6"
+  #gem "ruby-debug-base19", "~> 0.11.26"
+  #gem "linecache19", "~> 0.5.12"
+  #gem "ruby-debug-base19", "~> 0.11.25"
+  #gem 'ruby-debug19', :require => 'ruby-debug'
+  #require 'debug'
+  #gem 'debugger'
 end
 
 group :development do
@@ -53,4 +63,4 @@ end
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+#gem 'debugger'
